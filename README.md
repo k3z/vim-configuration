@@ -16,6 +16,11 @@ Colorsheme
 ----------
 * [mustang-vim](https://github.com/croaker/mustang-vim) : nice light dark theme
 
+In certain cases, to get full colors, you need to add this to your .bash_profile
+
+''''
+TERM=xterm-256color
+''''
 
 installation
 ------------
@@ -24,5 +29,8 @@ installation
 $ cd ~/
 $ mkdir .vimconfig
 $ git clone https://github.com/k3z/vim-configuration.git .vimconfig
+$ cd .vimconfig
 $ ./install.sh
 ```
+
+
