@@ -19,3 +19,7 @@ if [ -f ./.vimrc ]; then
     ln -s ~/.vimconfig/.vim ~/.vim
 
 fi
+
+git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
+git clone https://github.com/bling/vim-airline ~/.vim/bundle/vim-airline
+git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
